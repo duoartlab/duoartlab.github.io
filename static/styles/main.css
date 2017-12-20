@@ -159,3 +159,24 @@ body {
     width: 42rem;
   }
 }
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 64rem;
+  }
+}
+
+.text-default {
+    color: #333;
+}
+
+.genre-tag {
+    color: #666;
+    border-top: 1px dashed #777;
+}
+
+.release-date-label {
+    color: #888;
+    font-size: 9pt;
+}
