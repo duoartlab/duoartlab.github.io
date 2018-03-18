@@ -116,6 +116,7 @@ a {
 .main-nav {
 	/*margin-top: 135px;*/
 	margin-top: -14px !important;
+	z-index: 100;
 }
 
 #main-box {
@@ -200,6 +201,11 @@ a {
 	background-color: #490A3D;
 	color: #fff;
 	box-shadow: 2px 5px 10px #aaa;
+	min-width: 250px;
+}
+
+.duo-introduction {
+	min-width: 450px;
 }
 
 .carousel-box {
