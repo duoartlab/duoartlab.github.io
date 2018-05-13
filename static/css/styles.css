@@ -1,0 +1,348 @@
+body {
+    background-image: url(../images/common/bg.png);
+}
+
+#header-inner-box {
+  position: relative;
+  z-index: 2;
+}
+
+#header-box::after {
+  content: "";
+  background: url(../images/common/work_place.jpg);
+  background-position-y: -200px;
+  background-size: 80% auto;
+  /*background-repeat: no-repeat;*/
+  opacity: 0.05;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  overflow-y: hidden;
+  height: 200px;
+}
+
+#header-inner-box {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+
+#navigation-row {
+    background-color: #351330;
+}
+
+#navigation-row nav a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#navigation-row .mdl-navigation__link {
+/*  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;*/
+  line-height: 42px;
+}
+
+#navigation-row a:hover {
+  color: #00DFFC;
+}
+
+#navigation-row .active {
+  position: relative;
+  font-weight: bold;
+  color: #00DFFC;
+}
+
+
+
+#navigation-row .active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00DFFC;
+  left: 15%;
+}
+
+
+
+
+.sntw-nav {
+	margin-top:-18px;
+	left: 50%;
+	margin-left: -90px;
+	position: absolute;
+}
+
+.sntw-icon {
+	width: 43px;
+	height: 43px;
+	display: block;
+}
+
+.sntw-instagramm {
+	background-image: url('../images/common/sntw.png');
+	background-position: -176px 0;
+}
+.sntw-android {
+	background-image: url('../images/common/sntw.png');
+	background-position: -132px 0;
+}
+.sntw-soundcloud {
+	background-image: url('../images/common/sntw.png');
+	background-position: -131px 0;
+}
+.sntw-youtube {
+	background-image: url('../images/common/sntw.png');
+	background-position: -44px 0;
+}
+.sntw-gplus {
+	background-image: url('../images/common/sntw.png');
+	background-position: -88px 0;
+}
+
+.sntw-twitter {
+	background-image: url('../images/common/sntw.png');
+	background-position: -220px 0;
+}
+.sntw-facebook {
+	background-image: url('../images/common/sntw.png');
+	background-position: -264px 0;
+}
+
+.sntw-youtube {
+	background-image: url('../images/common/sntw.png');
+	background-position: -44px 0;
+}
+
+.sntw-tumblr {
+	background-image: url('../images/common/sntw.png');
+	background-position: -308px 0;
+}
+
+
+
+.sntw-github {
+	background-image: url('../images/common/sntw.png');
+	background-position: -350px 0;
+}
+
+.duo-title {
+	font-family: 'Oswald', sans-serif;
+	color: #fd0f0f !important;
+        font-size: 24px;
+        text-shadow: 1px 1px 1px #999;
+}
+
+.duo-title-game {
+    font-family: 'Oswald', sans-serif;
+    color: #fd0f0f !important;
+    font-size: 36px;
+}
+
+.mdl-card__supporting-text {
+    color: #333 !important;
+}
+
+.common-content {
+    padding: 8px !important;
+}
+
+.content-wrapper {
+    background-color: white;
+}
+
+.mdl-mini-footer__link-list {
+    color: #00DFFC;
+    text-shadow: 1px 1px 1px #000;
+}
+.mdl-mini-footer__left-section {
+    text-shadow: 1px 1px 1px #000;
+}
+
+/*#header-box .mdl-layout__header-row {
+  padding: 0;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}*/
+
+.mdl-layout__title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+/*.is-compact .mdl-layout__title span {
+  display: none;
+}*/
+
+.duo-thumb {
+    background-color: #53E1A9 !important;
+}
+
+.logo-row {
+  min-height: 200px;
+}
+
+/*.is-compact .portfolio-logo-row {
+  min-height: auto;
+}*/
+/*
+.portfolio-logo {
+  background: url(images/logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin: auto auto 10px;
+}*/
+/*
+.is-compact .portfolio-logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+
+.portfolio-navigation-row {
+  background-color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.portfolio-navigation-row  .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.portfolio-navigation-row .mdl-navigation__link {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 42px;
+}
+
+.portfolio-header .mdl-layout__drawer-button {
+    background-color: rgba(197, 197, 197, 0.44);
+}
+
+.portfolio-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+
+.portfolio-navigation-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255,64,129);
+  left: 15%;
+}*/
+
+.game-card .mdl-card__title {
+  padding-bottom: 0;
+}
+/*
+.portfolio-blog-card-full-bg {
+  background: url(images/example-blog03.jpg) center / cover;
+}
+
+.portfolio-blog-card-event-bg {
+  background: url(images/example-blog05.jpg) center / cover;
+}
+
+.portfolio-blog-card-strip-bg {
+  background: url(images/example-blog06.jpg) center / cover;
+}
+
+.portfolio-blog-card-compact .mdl-card__title {
+  padding-bottom: 0;
+}
+
+.portfolio-blog-card-bg > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}*/
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.content-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+/*
+.portfolio-copy {
+  max-width: 700px;
+}*/
+
+.no-padding {
+  padding: 0;
+}
+
+.no-left-padding{
+  padding-left: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top {
+  padding: 10px 0 0;
+}
+/*
+.portfolio-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}*/
+/*
+.demo-card-event > .mdl-card__actions {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}*/
+/*
+.portfolio-contact .mdl-textfield {
+  width: 100%;
+}
+
+.portfolio-contact form {
+  max-width: 550px;
+  margin: auto;
+}*/
+
+.mtransparent {
+    opacity: 0;
+}
+.item-description {
+    font-weight: italic;
+    color: #666;
+}
+
+footer {
+  background-color: #351330 !important;
+}
+
